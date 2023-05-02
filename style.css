@@ -55,20 +55,19 @@ body {
 .back-1 {
     height: 100%;
     width: 100%;
+    background-color: white;
     border-radius: 2rem;
     box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
     position: absolute;
     backface-visibility: hidden;
-}
-
-.front-1 {
-    background-color: white;
-    text-align: center;
-    padding-top: 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
 
 .back-1 {
-    background-color: rgb(233, 174, 185);
     transform: rotateY(180deg);
 }
 
@@ -98,21 +97,26 @@ body {
 .back-2 {
     height: 100%;
     width: 100%;
+    background-color: white;
     border-radius: 2rem;
     box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
     position: absolute;
     backface-visibility: hidden;
-}
-
-.front-2 {
-    background-image: url(./assets/𝑺𝒂𝒏.jfif);
-    background-size: cover;
-    background-position: center;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
 
 .back-2 {
-    background-color: rgb(180, 152, 152);
     transform: rotateY(180deg);
+}
+
+.img-2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
 }
 
 .container-3 {
@@ -136,19 +140,34 @@ body {
 .back-3 {
     height: 100%;
     width: 100%;
+    background-color: white;
     border-radius: 2rem;
-    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0,25);
     position: absolute;
     backface-visibility: hidden;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
 
 .front-3 {
-    background-image: url(./assets/𝒎𝒚\ 𝒏𝒆𝒊𝒈𝒉𝒃𝒐𝒓\ 𝒕𝒐𝒕𝒐𝒓𝒐.jfif);
-    background-size: cover;
-    background-position: center;
+    background-color: white;
 }
 
 .back-3 {
-    background-color: rgb(180, 152, 152);
     transform: rotateY(180deg);
+}
+
+.img-3 {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
