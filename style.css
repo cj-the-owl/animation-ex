@@ -1,0 +1,154 @@
+body {
+    background-color:lightgray;
+    font-size: 20px;
+}
+
+.navbar {
+    display:flex;
+    background-color: beige;
+    flex-direction:row;
+    justify-content: space-between;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.main {
+    display: flex;
+    flex-direction:column;
+    
+    
+}
+
+.pt-one {
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+}
+
+.pt-two {
+    background-image: url(./assets/Studio_Ghibli_cre_Film_Daily-jpg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.container-1 {
+    width: 200px;
+    height: 400px;
+    perspective: 800px;
+}
+
+.card-1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.container-1:hover > .card-1 {
+    transform: rotateY(180deg);
+}
+.front-1,
+.back-1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front-1 {
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.back-1 {
+    background-color: rgb(233, 174, 185);
+    transform: rotateY(180deg);
+}
+
+.img-1 {
+    height:80px ;
+    width: 80px;
+    border-radius: 100%
+}
+.container-2 {
+    width: 200px;
+    height: 400px;
+    perspective: 800px;
+}
+
+.card-2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.container-2:hover > .card-2 {
+    transform: rotateY(180deg);
+}
+.front-2,
+.back-2 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front-2 {
+    background-image: url(./assets/𝑺𝒂𝒏.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.back-2 {
+    background-color: rgb(180, 152, 152);
+    transform: rotateY(180deg);
+}
+
+.container-3 {
+    width: 200px;
+    height: 400px;
+    perspective: 800px;
+}
+
+.card-3 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.container-3:hover > .card-3 {
+    transform: rotateY(180deg);
+}
+.front-3,
+.back-3 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front-3 {
+    background-image: url(./assets/𝒎𝒚\ 𝒏𝒆𝒊𝒈𝒉𝒃𝒐𝒓\ 𝒕𝒐𝒕𝒐𝒓𝒐.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.back-3 {
+    background-color: rgb(180, 152, 152);
+    transform: rotateY(180deg);
+}
